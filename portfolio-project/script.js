@@ -21,3 +21,14 @@ projectCard.innerHTML = `
 projectlist.appendChild(projectCard);
  });
  console.log("javascript is working");
+
+ const testimonials =[
+    {
+        name: "john",
+        message: "Great website!"
+    },
+    {
+        name:"Amina",
+        message:"I really like this portfolio."
+    }
+ ];
