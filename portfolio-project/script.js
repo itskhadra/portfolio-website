@@ -32,3 +32,12 @@ projectlist.appendChild(projectCard);
         message:"I really like this portfolio."
     }
  ];
+const testimonialist = document.getElementById("testimonial-list");
+testimonials.forEach(function(testimonials){
+  const testimonialCard = document.createElement("div");
+  testimonialCard.innerHTML =`
+  <h3>${testimonials.name}</h3>
+  <p>"${testimonials.message}"</p>
+  `
+  testimonialist.appendChild(testimonialCard);
+});
