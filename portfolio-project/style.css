@@ -47,6 +47,12 @@ section{
     gap: 0.75rem;
     box-shadow: #222;
 }
+#skills-list li{
+    background: #eee;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+
+}
 #projects-container{
     display: flex;
     flex-wrap: wrap;
