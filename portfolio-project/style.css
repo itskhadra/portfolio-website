@@ -1,0 +1,8 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #1e3a8a;
+    color: white;
+}
