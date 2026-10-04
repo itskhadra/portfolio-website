@@ -47,3 +47,10 @@ section{
     gap: 0.75rem;
     box-shadow: #222;
 }
+#projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem;
+    box-shadow: #333;
+}
