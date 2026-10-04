@@ -60,3 +60,7 @@ section{
     padding: 2rem;
     box-shadow: #333;
 }
+#contact a{
+    color: #222;
+    font-weight: bold;
+}
