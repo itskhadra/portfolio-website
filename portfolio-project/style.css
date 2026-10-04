@@ -64,3 +64,12 @@ section{
     color: #222;
     font-weight: bold;
 }
+
+footer{
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 25px;
+    text-decoration-color: aliceblue;
+
+}
