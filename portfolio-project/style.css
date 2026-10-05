@@ -1,3 +1,13 @@
+:root {
+    --color-dark: #222;
+    --color-light: #eee;
+    --color-accent: #1e3a8a;
+    --color-accent-light: #93c5fd;
+    --color-card: #f4f4f4;
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.12);
+    --shadow-card-hover: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
 *{
     margin: 0;
     padding: 0;
