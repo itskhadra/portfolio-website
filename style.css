@@ -1,13 +1,12 @@
 :root {
-    --color-dark: #222;
-    --color-light: #eee;
-    --color-accent: #1e3a8a;
-    --color-accent-light: #93c5fd;
-    --color-card: #f4f4f4;
-    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.12);
-    --shadow-card-hover: 0 8px 20px rgba(0, 0, 0, 0.18);
+    --color-dark: #831843;
+    --color-light: #fce7f3;
+    --color-accent: #be185d;
+    --color-accent-light: #f9a8d4;
+    --color-card: rgba(255, 255, 255, 0.85);
+    --shadow-card: 0 2px 8px rgba(131, 24, 67, 0.15);
+    --shadow-card-hover: 0 8px 20px rgba(131, 24, 67, 0.25);
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -29,10 +28,11 @@ body{
     align-items: center;
     gap: 1rem;
     text-align: center;
+    
 }
 #about p{
     max-width: 60ch;
-    background-color: pink ;
+    
 }
 header{
     display: flex;
