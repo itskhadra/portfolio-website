@@ -1,0 +1,153 @@
+:root {
+    --color-dark: #222;
+    --color-light: #eee;
+    --color-accent: #1e3a8a;
+    --color-accent-light: #93c5fd;
+    --color-card: #f4f4f4;
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.12);
+    --shadow-card-hover: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+
+}
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+#about p{
+    max-width: 60ch;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: var(--color-dark);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header h1{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+nav{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px;
+    transition: color 0.2s, border-color 0.2s;  
+}
+/* hover effect for both kyboard and mouse */
+nav a:hover,
+nav a:focus-visible {
+    color: var(--color-accent-light);
+    border-bottom-color: var(--color-accent-light);
+}
+
+section{
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    scroll-margin-top: 5rem; /*stops the sticky header from covering a section's heading when a nav link scrolls to it.*/
+}
+section h2 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--color-accent);
+    display: inline-block;
+
+}
+#skills-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    
+}
+#skills-list li{
+    background: var(--color-light);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: background 0.2s, color 0.2s;
+
+}
+#skills-list li:hover{
+    background: var(--color-accent);
+    color: #fff;
+
+}
+#project-list,
+#testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+#project-list > div,
+#testimonial-list > div {
+    background: var(--color-card);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-card);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#project-list h3,
+#testimonial-list h3 {
+    margin-bottom: 0.5rem;
+    color: var(--color-accent);
+}
+
+#contact a{
+    color: #222;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 25px;
+    text-decoration-color: aliceblue;
+
+}
+@media (max-width: 600px) {
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  nav a {
+    margin-left: 0;
+    margin-right: 0.75rem;
+  }
+}
