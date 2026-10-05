@@ -70,7 +70,14 @@ section{
     padding: 3rem 2rem;
     max-width: 900px;
     margin: 0 auto;
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 5rem; /*stops the sticky header from covering a section's heading when a nav link scrolls to it.*/
+}
+section h2 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--color-accent);
+    display: inline-block;
+
 }
 #skills-list{
     list-style: none;
