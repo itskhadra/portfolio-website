@@ -59,6 +59,12 @@ nav a{
     border-bottom: 2px;
     transition: color 0.2s, border-color 0.2s;  
 }
+/* hover effect for both kyboard and mouse */
+nav a:hover,
+nav a:focus-visible {
+    color: var(--color-accent-light);
+    border-bottom-color: var(--color-accent-light);
+}
 
 section{
     padding: 3rem 2rem;
