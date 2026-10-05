@@ -32,6 +32,7 @@ body{
 }
 #about p{
     max-width: 60ch;
+    background-color: pink ;
 }
 header{
     display: flex;
