@@ -1,6 +1,6 @@
 # Katra & Augustine Portfolio Website
 
-## Live demmo link 
+## Live demo link 
 https://itskhadra.github.io/portfolio-website/
 
 ## About the Project
@@ -58,7 +58,7 @@ We worked together to review, test, and improve the final website.
 1. Clone the repository:
 
 ```bash
-git clone YOUR-GITHUB-REPOSITORY-LINK
+git@github.com:itskhadra/portfolio-website.git
 ```
 
 2. Open the project folder.
