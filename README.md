@@ -1,5 +1,8 @@
 # Katra & Augustine Portfolio Website
 
+## Live demmo link 
+https://itskhadra.github.io/portfolio-website/
+
 ## About the Project
 
 This project is a personal portfolio website created by **Katra Muhidin and Augustine** as a group project.
