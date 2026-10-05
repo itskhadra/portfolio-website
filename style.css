@@ -131,7 +131,11 @@ section h2 {
     margin-bottom: 0.5rem;
     color: var(--color-accent);
 }
-
+#project-list > div:hover,
+#testimonial-list > div:hover{
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-card-hover);
+}
 #contact a{
     color: #222;
     font-weight: bold;
