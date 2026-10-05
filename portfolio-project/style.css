@@ -13,13 +13,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    gap: 2rem;
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -28,6 +23,14 @@ body{
     color: #333;
 
 }
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
 header{
     display: flex;
     justify-content: space-between;
